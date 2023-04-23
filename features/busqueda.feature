@@ -6,8 +6,8 @@ Característica: Busqueda (Google)
     Quiero poder realizar una busqueda
     Para encontrar resultados acorde
 
-    Antecedentes: 
-    Dado Un usuario que se encuentra en la pagina "Principal"
+    Antecedentes: Usuario se encuentra en la pagina principal
+        Dado Un usuario que se encuentra en la pagina Principal
 
     @NoRegistrado
     Esquema del escenario: Usuario no resgistrado
@@ -19,7 +19,6 @@ Característica: Busqueda (Google)
         Ejemplos: Busqueda
             | algo          |
             | Neoris        |
-            | Messi         |
-            | Gherkin       |
+
 
 
